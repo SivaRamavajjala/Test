@@ -51,7 +51,7 @@ class Browser:
     def closeTheBrowser(self):
         print("Close the current window")
         driver.close()
-        print("Quits the browser")
+        print("Quitting the browser")
         driver.quit()
 # br=Browser()
 # br.launchChrome("")
